@@ -11,5 +11,6 @@ class coin():
         r=choices(('heads','tails'),[self.hBias,1-self.hBias])
         return(r)
     
-c=coin(0.1)
+c=coin(0.3)
 print(c.toss())
+#new comment
